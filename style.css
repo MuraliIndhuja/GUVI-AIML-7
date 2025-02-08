@@ -1,0 +1,46 @@
+.container{
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+.leftBox{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+.leftBox img{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.rightBox{
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+.rightBox h1{
+    font-family: sans-serif;
+}
+h1 span{
+    color: springgreen;
+}
+.rightBox p{
+    font-size: 20px;
+    line-height: 45px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.rightBox button{
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+button span{
+    color: springgreen;
+}
